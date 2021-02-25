@@ -8,26 +8,27 @@ I really enjoy using WSL but you can run into some wonky bugs from time to time.
 
 1. Install chromium in your WSL terminal
 
-```
+```console
 npm install chromium-browser
 ```
 
 2. Install the puppeteer npm package
 
-```
+```console
 npm install puppeteer
 ```
 
 3. When launching puppeteer, pass in the path to chromium
 
-```
-const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
-
+```javascript
+const browser = await puppeteer.launch({
+  executablePath: "/usr/bin/chromium-browser",
+})
 ```
 
 Note: if this is not working, verify this is the correct location for chromium.
 
-```
+```console
 whereis chromium
 ```
 
