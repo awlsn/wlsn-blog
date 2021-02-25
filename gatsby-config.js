@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Would Like Something New`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Adam Wilson`,
+      summary: `who lives and works in Sweetwater learning useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A new blog that I am hoping to use.`,
+    siteUrl: `https://wlsn.org/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `yafsho`,
     },
   },
   plugins: [
