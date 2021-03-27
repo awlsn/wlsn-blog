@@ -2,6 +2,7 @@
 title: Note - Getting puppeteer to work in WSL
 date: "2021-02-25"
 description: Quick workaround to puppeteer being unable to find chromium
+slug: note-puppeteer-wsl
 ---
 
 I really enjoy using WSL but you can run into some wonky bugs from time to time. Here is what I had to do to get puppeteer working:
@@ -9,7 +10,7 @@ I really enjoy using WSL but you can run into some wonky bugs from time to time.
 1. Install chromium in your WSL terminal
 
 ```console
-npm install chromium-browser
+sudo apt-get install chromium-browser
 ```
 
 2. Install the puppeteer npm package
