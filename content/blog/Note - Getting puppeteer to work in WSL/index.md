@@ -30,7 +30,7 @@ const browser = await puppeteer.launch({
 Note: if this is not working, verify this is the correct location for chromium.
 
 ```console
-whereis chromium
+whereis chromium-browser
 ```
 
 You may need to use a different path.
